@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del oeste</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="./index.html">
+                    <img id="logo" src="./assets/img/logo.png" alt="Logo del portal">
+                </a> 
+                <div class="titulo">   
+                    <h1>
+                        Noticias Del Oeste
+                    </h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#actualidad">Último momento</a>
+                        <a class="nav-link" href="#elMundo">El mundo</a>
+                        <a class="nav-link" href="#tecnologia">Tecnología</a>
+                        <a class="nav-link" href="#politica">Política</a>
+                        <a class="nav-link" href="#deportes">Deportes</a>
+                        <a class="nav-link" href="#cultura">Cultura</a>
+                        <a class="nav-link" href="#elClima">El clima</a>
+                        <a id="btnLogin" class="btn btn-primary" href="./login.html" role="button">Iniciar sesión</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="elMundo">EL MUNDO</h2>
+                </div>
+            </div>            
+            <div class="row g-0 justify-content-center">
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <a href="./noticia.html"><img src="./assets/img/elmundo1.png" class="img-fluid" alt="El impacto de la reelección de Erdogan más allá de Turquía"></a>                        
+                    </div>
+                    <div class="container-news">
+                        <span>EUROPA</span>
+                        <p>Turquía respaldará ingreso de Suecia a la OTAN, dice el jefe de la alianza</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <img src="./assets/img/elmundo2.png" class="img-fluid" alt="Imagen de un importante templo japones">                        
+                    </div>
+                    <div class="container-news">
+                        <span>JAPÓN</span>
+                        <p>Acusan a un canadiense de 17 años de vandalizar un histórico templo japonés</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <img src="./assets/img/elmundo3.png" class="img-fluid" alt="Mapa de china">                        
+                    </div>
+                    <div class="container-news">
+                        <span>CHINA</span>
+                        <p>Al menos 6 muertos tras ataque con cuchillo fuera de un jardín de infantes</p>
+                    </div>
+                </div>   
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <img src="./assets/img/elmundo4.png" class="img-fluid" alt="Imagen de un tren en referencia a la noticia">                        
+                    </div>
+                    <div class="container-news">
+                        <span>RUSIA</span>
+                        <p>Los detalles filtrados del tren secreto de Putin exponen su "paranoia"</p>
+                    </div>
+                </div>   
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <img src="./assets/img/elmundo5.png" class="img-fluid" alt="Imagen de las inundaciones en La India">                        
+                    </div>
+                    <div class="container-news">
+                        <span>INDIA</span>
+                        <p>Al menos 22 muertos en la India por las inundaciones</p>
+                    </div>
+                </div>   
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-6 col-xl-4">
+                    <div class="container-img">
+                        <img src="./assets/img/elmundo6.png" class="img-fluid" alt="Imagen de la cima del Everest">                        
+                    </div>
+                    <div class="container-news">
+                        <span>CAMBIO CLIMÁTICO</span>
+                        <p>¿Cuánto mide la capa de nieve en la cima del Everest?"</p>
+                    </div>
+                </div>   
+            </div>
+            <div class="separador"></div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="actualidad">ÚLTIMO MOMENTO</h2>
+                </div>
+            </div>
+            <div class="grid-containerNews">
+                <div class="grid-news">
+                    <img src="./assets/img/actualidad4.png" class="img-fluid" alt="Imagen de referencia del mercado financiero">
+                    <span>HAY DOS DETENIDOS</span>
+                    <p>Allanamientos en los bancos y financieras por importaciones falsas para fugar dolares</p>
+                </div>            
+                <div class="grid-news">
+                    <img src="./assets/img/actualidad1.png" class="img-fluid" alt="Imagen de un hombre y una mujer de la tercera edad"> 
+                    <span>ANTICIPO DE RADIO 10</span>
+                    <p>El gobierno porepara un importante anuncio para jubilados, pensionados y beneficiarios de ANSES</p>
+                </div>            
+                <div class="grid-news">
+                    <img src="./assets/img/actualidad2.png" class="img-fluid" alt="Imagen de una estacion de servicio">
+                    <span>VALOR DE REFERENCIA</span>
+                    <p>Sorpresivo aumento de la nafta: como quedaron los precios</p>
+                </div>            
+                <div class="grid-news">
+                    <img src="./assets/img/actualidad3.png" class="img-fluid" alt="Imagen de una linea de colectivos de referencia">
+                    <span>LABORALES</span>
+                    <p>El gobierno publicó la medida que impide a descontar el día por el paro de colectivos y trenes</p>
+                </div>            
+            </div>
+            <div class="separador"></div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="tecnologia">TECNOLOGÍA</h2>
+                </div>
+            </div>            
+            <div class="row g-0 justify-content-center">
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno1.png" class="card-img-top" alt="Imagen de una gallina y un huevo">
+                        <div class="card-body">
+                            <span>¿Primero el huevo o la gallina?</span>
+                            <p class="card-text">La inteligencia artificial respondió la pregunta que todos se hicieron alguna vez</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno2.png" class="card-img-top" alt="Imagen de las apps de la compania Meta">
+                        <div class="card-body">
+                            <span>Nueva app de Meta</span>
+                            <p class="card-text">¿Qué es y cómo funciona Threads?</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno3.png" class="card-img-top" alt="Imagen del smartphone de Motorola">
+                        <div class="card-body">
+                            <span>A examen</span>
+                            <p class="card-text">Probamos el smartphone Motorola Edge 40 Pro, que mantiene el buen diseño del año pasado</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno5.png" class="card-img-top" alt="Imagen de dos pantallas de celular clonadas">
+                        <div class="card-body">
+                            <span>El futuro del clon de Twitter</span>
+                            <p class="card-text">Cuál es el objetivo real de Threads, según sus creadores</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno4.png" class="card-img-top" alt="Imagen de la consola de Logitech">
+                        <div class="card-body">
+                            <span>A examen</span>
+                            <p class="card-text">Probamos la G Cloud de Logitech, una consola portátil para jugar en casa y en la nube</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno6.png" class="card-img-top" alt="Imagen de un celular conectado a un cargador">
+                        <div class="card-body">
+                            <span>Practicidad</span>
+                            <p class="card-text">El truco infalible para cargar un celular sin tener que enchufarlo a la corriente eléctrica</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno7.png" class="card-img-top" alt="Imagen de un androide realizando una entrevista laboral">
+                        <div class="card-body">
+                            <span>El sesgo del algoritmo</span>
+                            <p class="card-text">Nueva York regula el uso de herramientas digitales en los procesos de selección para evitar prejuicios raciales o sexistas</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-12 mb-2 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/tecno8.png" class="card-img-top" alt="Imagen de un nene usando el celular en clase">
+                        <div class="card-body">
+                            <span>Para fomentar la atención en clase</span>
+                            <p class="card-text">Países Bajos prohibirá los celulares, tabletas y relojes inteligentes en las aulas desde el año próximo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="separador"></div>
+        </section>    
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="politica">POLÍTICA</h2>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    
+                        <img src="./assets/img/politica1.png" class="img-fluid" alt="Imagen de los candidatos P.Bullrich y H.R.Larreta">
+                    
+                        <span>Los spots de campaña generaron un nuevo cruce entre Bullrich y Larreta</span>
+                        <p>El jefe de Gobierno porteño aseguró que “los cambios no son a las trompadas” en referencia al mensaje que da su rival. Tras sus dichos,
+                           la precandidata presidencial del PRO lo cruzó y planteó que “es todo o no es nada”.</p>
+                </div>
+                
+                <div class="grid-item">
+                    
+                        <img src="./assets/img/politica2.png" class="img-fluid" alt="Imagen de Javier Millei">
+                   
+                    <span>“Milei S.A.”: denuncian que el libertario pide U$S30.000 para estar en una de sus listas para las elecciones</span>
+                    <p>En el informe presentado por Periodismo Para Todos se develó la trama que existe por detrás de la designación de candidatos en La Libertad Avanza.</p>
+                </div>
+                <div class="grid-item">
+               
+                        <img src="./assets/img/politica3.png" class="img-fluid" alt="Imagen del candidato Massa">
+                  
+                    <span>Massa apuntó contra la oposición: "Que digan dónde van a ajustar"</span>
+                    <p>El ministro de Economía recordó que dentro de Juntos por el Cambio están "las dos personas que fueron parte del mismo esquema para recortarle el 13% a los jubilados".
+                       "Los que me acusan son los que, liderando del otro lado, pasaron por 13 partidos políticos distintos", subrayó.</p>
+                </div>
+                <div class="grid-item">
+                   
+                        <img src="./assets/img/politica4.png" class="img-fluid" alt="Imagen de representantes de Unión por La Patria">
+                   
+                    <span>"Hay que decir toda la verdad"</span>
+                    <p>Un ministro de Macri cruzó a Cristina Kirchner por su relato sobre la reestatización de YPF</p>
+                </div>
+                <div class="grid-item">
+                   
+                        <img src="./assets/img/politica5.png" class="img-fluid" alt="Imagen del presidente uruguayo Lacalle Pou">
+                   
+                    <span>"Mala intención o ignorancia"</span>
+                    <p>Lacalle Pou cruzó a Alberto Fernández por sus dichos sobre la crisis hídrica</p>
+                </div>
+                <div class="grid-item">
+                   
+                        <img src="./assets/img/politica6.png" class="img-fluid" alt="Imagen de La Cámara de Senadores">
+                   
+                    <span>El oficialismo buscará quebrar la páralisis en el Senado para acelerar la designación de jueces</span>
+                    <p>El bloque kirchnerista intentará garantizarse el apoyo de legisladores afines para lograr el quórum. Se estima que entre todos los proyectos a tratar figuren los 
+                        80 pliegos para el Poder Judicial, entre los que se encuentra el de la jueza que tiene a cargo la causa Hotesur-Los Sauces.</p>
+                </div>
+            </div>
+            <div class="separador"></div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="cultura">CULTURA</h2>
+                </div>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-sm-12 mb-2 col-md-12 col-lg-12 col-xl-6">    
+                    <div class="container-imgCultura">
+                        <img src="./assets/img/cultura1.png" class="img-fluid" alt="Imagen de bibliografia de Disney">                        
+                    </div>
+                    <div class="container-newsCultura">
+                        <p>Disney revela sus tesoros para celebrar su centenario</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 col-md-12 col-lg-12 col-xl-6">    
+                    <div class="container-imgCultura">
+                        <img src="./assets/img/cultura2.png" class="img-fluid" alt="Imagen de una una de las obras en exposición">                        
+                    </div>
+                    <div class="container-newsCultura">
+                        <p>El imaginaro voraz y caótico del Conurbano, en una muestra de 3 jóvenes artistas</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 col-md-12 col-lg-12 col-xl-6">    
+                    <div class="container-imgCultura">
+                        <img src="./assets/img/cultura3.png" class="img-fluid" alt="Imagen de las obras en exposición">                        
+                    </div>
+                    <div class="container-newsCultura">
+                        <p>Trabajo textil y precarización, el eje de 4 muestras que presenta Bienalsur en Tucumán</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-2 col-md-12 col-lg-12 col-xl-6">    
+                    <div class="container-imgCultura">
+                        <img src="./assets/img/cultura4.png" class="img-fluid" alt="Imagen de el ex baterista Charlie Watts">                        
+                    </div>
+                    <div class="container-newsCultura">
+                        <p>Subastan parte de la extraordinaria biblioteca del Rolling Stone Charlie Watts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="separador"></div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="elClima">EL CLIMA</h2>
+                </div>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-sm-12 mb-2 col-md-12 col-lg-12 col-xl-12">
+                    <div class="img-clima">    
+                        <img src="./assets/img/clima1.png" class="img-fluid" alt="Imagen satelital del clima">                        
+                    </div>    
+                </div>
+            </div>
+            <div class="separador"></div>
+        </section>
+        <section>    
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="deportes">DEPORTES</h2>
+                </div>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/img/deportes1.jpg" class="d-block w-100" alt="Imagen de jugadores de Boca tras el triunfo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/img/deportes2.jpg" class="d-block w-100" alt="Imagen del partido entre Unión y Talleres">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/deportes3.jpg" class="d-block w-100" alt="Imagen de jugadores de Velez tras el triunfo">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="row g-0 justify-content-center">
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>
+                    <img src="./assets/img/logoFooter.png" alt="">
+                </div>
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>
+                    <p>CONTACTOS</p>
+                </div>
+                <div class="subContainerFooter">    
+                    <p><a href="./registro.html">Registrese</a></p>
+                    <p>Trabajar con nosotros</p>
+                </div>    
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>    
+                    <div>
+                        <p>SEGUINOS!</p>
+                    </div>
+                    <div class="subContainerFooter">    
+                        <img src="./assets/img/bannerFooter.png" alt="">
+                    </div>    
+                </div>
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">                        
+                <div class="subContainerFooter">    
+                    <p>Legales</p>
+                    <p>Términos y condiciones</p>
+                    <p>Política de privacidad</p>
+                    <p>Defensa del consumidor</p>
+                </div>  
+            </div>    
+        </div>
+        <div class="separador2"></div>
+        <div class="containerFooterBajo">
+            <div class="autor">
+                <p>© 2023 Guido Nicolás Roces</p>
+                <p>Taller de lenguajes de marcado</p>
+                <p>UNAHUR</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

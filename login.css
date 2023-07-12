@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar.bg-body-tertiary {
+    margin: 0;
+    padding: 0;  
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 78px;
+    height: 78px;
+}
+
+.navbar-nav {
+    margin-left: auto ;
+}
+
+#titulo1 {
+    padding: 20px 0 ;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    margin-right: auto;
+}
+
+.titulo h2 {
+    color: black;
+    width: 120px;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav div.container-fluid {
+    height: 78px;
+    background-color: rgb(12, 94, 94);
+}
+
+@media only screen and (max-width: 1400px) {
+    nav div.container-fluid {    
+        max-width: 1400px;
+        height: auto;
+    }
+
+    a#btnLogin {
+        margin-right: auto;    
+    }
+
+    main {
+        width: auto;
+    }
+}
+
+div.container-fluid a {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin: auto 0;
+    height: auto;  
+}
+
+div#navbarNavAltMarkup.collapse.navbar-collapse {
+    justify-content: center;
+}
+
+#btnLogin {
+    height: 38px;
+}
+
+body {
+    background: linear-gradient(rgb(96, 143, 143), rgb(242, 243, 243));
+}
+
+main {
+    margin: auto;
+    background: linear-gradient(rgb(207, 229, 229), rgb(242, 243, 243));
+    max-width: 1400px;
+    height: 700px;
+}
+
+#loginForm {
+    padding: 10px 0;
+}
+
+#btnLogin {
+    margin-top: 50px;
+}
+
+#registro {
+    margin-top: 50px;
+    color: white;
+}
+
+#containerFooter {
+    background-color: rgb(12, 94, 94);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.separador2 {
+    border: 1px solid white;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.subContainerFooter a {
+    text-decoration: none;
+    color: white;
+}
+.containerFooterBajo {
+    background-color: rgb(12, 94, 94);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.autor {
+    text-align: center;
+}

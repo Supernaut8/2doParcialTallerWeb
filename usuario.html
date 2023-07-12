@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="./usuario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="./index.html">
+                    <img id="logo" src="./assets/img/logo.png" alt="Logo del portal">
+                </a> 
+                <div class="titulo">   
+                    <h2>
+                        Noticias Del Oeste
+                    </h2>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html#actualidad">Último momento</a>
+                        <a class="nav-link" href="index.html#elMundo">El mundo</a>
+                        <a class="nav-link" href="index.html#tecnologia">Tecnología</a>
+                        <a class="nav-link" href="index.html#politica">Política</a>
+                        <a class="nav-link" href="index.html#deportes">Deportes</a>
+                        <a class="nav-link" href="index.html#cultura">Cultura</a>
+                        <a class="nav-link" href="index.html#elClima">El clima</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo1">
+            <h1 id="welcome"></h1>
+        </div>
+        <div>
+            <h3 id="favoritas"></h3>
+        </div>
+        <div id="containerTable">
+            <table id="favsNews" class="table table-success table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Nº</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Género</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <a href="noticia.html">Turquia apoya ingreso de Suecia a la OTAN</a>
+                    </td>
+                    <td>15/04/2023</td>
+                    <td>Política</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        <a href="https://www.lanacion.com.ar/cultura/canela-inauguro-la-feria-del-libro-infantil-y-juvenil-la-escritura-nunca-es-inocente-nid10072023/">
+                            La primera autora invitada</a>
+                    </td>
+                    <td>25/10/2023</td>
+                    <td>Cultura</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        <a href="https://www.infobae.com/america/deportes/2023/05/28/lucha-gloria-y-muerte-del-mejor-boxeador-de-todos-los-tiempos/">
+                        Lucha, gloria y muerte del mejor boxeador de todos los tiempos
+                        </a>
+                    </td>
+                    <td>01/08/2023</td>
+                    <td>Deportes</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>
+                        <a href="https://cnnespanol.cnn.com/2023/07/11/exclusiva-heineken-unilever-mondelez-abandonar-rusia-trax/">
+                            Acusan a grandes empresas como Heineken y Unilever de no salir de Rusia</a>
+                    </td>
+                    <td>08/11/2023</td>
+                    <td>El Mundo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        <a href="https://www.bbc.com/mundo/articles/c97nr483zg1o">Por qué los teléfonos celulares se sobrecalientan y cómo prevenirlo</a>
+                    </td>
+                    <td>01/08/2023</td>
+                    <td>Tecnología</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>    
+    </main>
+
+    
+    <footer>
+        <div class="row g-0 justify-content-center">
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>
+                    <img src="./assets/img/logoFooter.png" alt="">
+                </div>
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>
+                    <p>CONTACTOS</p>
+                </div>
+                <div class="subContainerFooter">    
+                    <p><a href="./contacto.html">Formulario de contacto</a></p>
+                    <p>Trabajar con nosotros</p>
+                </div>    
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">    
+                <div>    
+                    <div>
+                        <p>SEGUINOS!</p>
+                    </div>
+                    <div class="subContainerFooter">    
+                        <img src="./assets/img/bannerFooter.png" alt="">
+                    </div>    
+                </div>
+            </div>
+            <div id="containerFooter" class="col-sm-12 mb-2 col-md-6 col-lg-3 col-xl-3">                        
+                <div class="subContainerFooter">    
+                    <p>Legales</p>
+                    <p>Términos y condiciones</p>
+                    <p>Política de privacidad</p>
+                    <p>Defensa del consumidor</p>
+                </div>  
+            </div>    
+        </div>
+        <div class="separador2"></div>
+        <div class="containerFooterBajo">
+            <div class="autor">
+                <p>© 2023 Guido Nicolás Roces</p>
+                <p>Taller de lenguajes de marcado</p>
+                <p>UNAHUR</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var urlParams = new URLSearchParams(window.location.search)
+        var username = urlParams.get('username')
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (username) {
+                document.getElementById('welcome').textContent = 'Bienvenido, ' + username + ' Diaz!'
+                document.getElementById('favoritas').textContent = 'A continuación podra ver sus noticias favoritas:'
+            }
+            else {
+                document.getElementById('welcome').textContent = 'Usuario no registrado!'
+                document.getElementById('favoritas').textContent = 'Registrese para agregar favoritos'
+                document.getElementById('favsNews').style.display = "none"
+            }
+        } )
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
